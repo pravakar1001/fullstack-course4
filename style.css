@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+}
+
+.first-block{
+    display: block;
+    width: 30%;
+    float: left;
+    border: 3px solid black;
+    margin: 20px;
+    background-color: grey;
+}
+
+.second-block{
+    display: block;
+    width: 30%;
+    float: left;
+    border: 3px solid black;
+    margin: 20px;
+    background-color: grey;
+}
+
+.third-block{
+    display: block;
+    width: 30%;
+    float: left;
+    border: 3px solid black;
+    margin: 20px;
+    background-color: grey;
+}
+
+.heading-1{
+    display: block;
+    position: relative;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+    text-align: center;
+    margin-left: 80%;
+    background-color: rgb(230, 155, 142);
+}
+
+.heading-2{
+    display: block;
+    position: relative;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+    text-align: center;
+    margin-left: 80%;
+    background-color: rgb(182, 32, 18);
+}
+
+.heading-3{
+    display: block;
+    position: relative;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+    text-align: center;
+    margin-left: 80%;
+    background-color: rgb(238, 221, 148);
+}
+
+h2{
+    text-align: center;
+    margin: 30px;
+}
+
+.p1{
+    margin: 10px;
+}
+.p2{
+    margin: 10px;
+}
+.p3{
+    margin: 10px;
+}
+
+@media(min-width: 992px){
+    .row .first-block{
+        width: 30.5%;
+        float: left;
+    }
+    .row .second-block{
+        width: 30.5%;
+        float: left;
+    }
+    .row .third-block{
+        width: 30.5%;
+        float: left;
+    }
+}
+
+@media(max-width: 991px) and (min-width: 768px){
+    .row .third-block{
+        width: 95%;
+        float: left;
+    }
+    .row .first-block{
+        width: 45%;
+        float: left;
+    }
+    .row .second-block{
+        width: 45%;
+        float: left;
+    }
+}
+
+@media(max-width: 767px){
+    .row .first-block{
+        width: 92%;
+        float: left;
+    }
+    .row .second-block{
+        width: 92%;
+        float: left;
+    }
+    .row .third-block{
+        width: 92%;
+        float: left;
+    }
+}
